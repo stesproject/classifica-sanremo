@@ -1,122 +1,122 @@
 [
   {
-    "id": "Alessandra Amoroso",
-    "info": "Fino a qui"
+    "value": "Alessandra Amoroso - Fino a qui",
+    "key": 0
   },
   {
-    "id": "Alfa",
-    "info": "Vai!"
+    "value": "Alfa - Vai!",
+    "key": 1
   },
   {
-    "id": "Angelina Mango",
-    "info": "La noia"
+    "value": "Angelina Mango - La noia",
+    "key": 2
   },
   {
-    "id": "Annalisa",
-    "info": "Sinceramente"
+    "value": "Annalisa - Sinceramente",
+    "key": 3
   },
   {
-    "id": "BigMama",
-    "info": "La rabbia non ti basta"
+    "value": "BigMama - La rabbia non ti basta",
+    "key": 4
   },
   {
-    "id": "Bnkr44",
-    "info": "Governo Punk"
+    "value": "Bnkr44 - Governo Punk",
+    "key": 5
   },
   {
-    "id": "Clara",
-    "info": "Diamanti grezzi"
+    "value": "Clara - Diamanti grezzi",
+    "key": 6
   },
   {
-    "id": "Dargen D'Amico",
-    "info": "Onda alta"
+    "value": "Dargen D'Amico - Onda alta",
+    "key": 7
   },
   {
-    "id": "Diodato",
-    "info": "Ti muovi"
+    "value": "Diodato - Ti muovi",
+    "key": 8
   },
   {
-    "id": "Emma",
-    "info": "Apnea"
+    "value": "Emma - Apnea",
+    "key": 9
   },
   {
-    "id": "Fiorella Mannoia",
-    "info": "Mariposa"
+    "value": "Fiorella Mannoia - Mariposa",
+    "key": 10
   },
   {
-    "id": "Fred De Palma",
-    "info": "Il cielo non ci vuole"
+    "value": "Fred De Palma - Il cielo non ci vuole",
+    "key": 11
   },
   {
-    "id": "Gazzelle",
-    "info": "Tutto qui"
+    "value": "Gazzelle - Tutto qui",
+    "key": 12
   },
   {
-    "id": "Geolier",
-    "info": "I p' me, tu p' te"
+    "value": "Geolier - I p' me, tu p' te",
+    "key": 13
   },
   {
-    "id": "Ghali",
-    "info": "Casa mia"
+    "value": "Ghali - Casa mia",
+    "key": 14
   },
   {
-    "id": "Il Tre",
-    "info": "Fragili"
+    "value": "Il Tre - Fragili",
+    "key": 15
   },
   {
-    "id": "Il Volo",
-    "info": "Capolavoro"
+    "value": "Il Volo - Capolavoro",
+    "key": 16
   },
   {
-    "id": "Irama",
-    "info": "Tu no"
+    "value": "Irama - Tu no",
+    "key": 17
   },
   {
-    "id": "La Sad",
-    "info": "Autodistruttivo"
+    "value": "La Sad - Autodistruttivo",
+    "key": 18
   },
   {
-    "id": "Loredana Berté",
-    "info": "Pazza"
+    "value": "Loredana Berté - Pazza",
+    "key": 19
   },
   {
-    "id": "Mahmood",
-    "info": "Tuta gold"
+    "value": "Mahmood - Tuta gold",
+    "key": 20
   },
   {
-    "id": "Maninni",
-    "info": "Spettacolare"
+    "value": "Maninni - Spettacolare",
+    "key": 21
   },
   {
-    "id": "Mr.Rain",
-    "info": "Due altalene"
+    "value": "Mr.Rain - Due altalene",
+    "key": 22
   },
   {
-    "id": "Negramaro",
-    "info": "Ricominciamo tutto"
+    "value": "Negramaro - Ricominciamo tutto",
+    "key": 23
   },
   {
-    "id": "Renga Nek",
-    "info": "Pazzo di te"
+    "value": "Renga Nek - Pazzo di te",
+    "key": 24
   },
   {
-    "id": "Ricchi e Poveri",
-    "info": "Ma non tutta la vita"
+    "value": "Ricchi e Poveri - Ma non tutta la vita",
+    "key": 25
   },
   {
-    "id": "Rose Villain",
-    "info": "Click boom!"
+    "value": "Rose Villain - Click boom!",
+    "key": 26
   },
   {
-    "id": "Sangiovanni",
-    "info": "Finiscimi"
+    "value": "Sangiovanni - Finiscimi",
+    "key": 27
   },
   {
-    "id": "Santi Francesi",
-    "info": "L'amore in bocca"
+    "value": "Santi Francesi - L'amore in bocca",
+    "key": 28
   },
   {
-    "id": "The Kolors",
-    "info": "Un ragazzo una ragazza"
+    "value": "The Kolors - Un ragazzo una ragazza",
+    "key": 29
   }
 ]

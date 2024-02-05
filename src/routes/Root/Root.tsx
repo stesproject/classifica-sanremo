@@ -68,11 +68,11 @@ const Root = () => {
                   inactiveStrokeColor: "#ddcbc799",
                   itemStrokeWidth: 2,
                 }}
-                value={ratings.find((item) => item.id === itemId)?.value || 0}
+                value={ratings.find((item) => item.id === itemId)?.score || 0}
                 onChange={(value: number) =>
                   setRatings((prev) => {
                     const index = prev.findIndex((item) => item.id === itemId);
-                    prev[index].value = value;
+                    prev[index].score = value;
                     return [...prev];
                   })
                 }
@@ -89,7 +89,7 @@ const Root = () => {
 
   const table = useReactTable({
     data: ratings.sort(
-      (a, b) => b.value - a.value || a.id.localeCompare(b.id) || 0
+      (a, b) => b.score - a.score || a.id.localeCompare(b.id) || 0
     ),
     columns,
     state: {

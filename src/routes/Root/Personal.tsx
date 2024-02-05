@@ -35,7 +35,9 @@ const Personal = () => {
       setRatings(JSON.parse(ratings));
     } else {
       setRatings(
-        names.map((item) => ({ id: `${item.id} - ${item.info}`, value: 0 }))
+        names
+          .map((item) => ({ id: item.key.toString(), score: 0 }))
+          .sort((a, b) => +a.id - +b.id)
       );
     }
   }, [names]);
@@ -51,10 +53,11 @@ const Personal = () => {
       {
         id: "names",
         header: () => t("name"),
-        accessorFn: (row) => row,
+        accessorFn: (row) =>
+          names.find((item) => item.key.toString() === row.id)?.value,
         cell: ({ getValue, row }) => {
-          const item = getValue() as NamesObj;
-          return `${row.index + 1}. ${item.id}`;
+          const name = getValue<string>();
+          return `${row.index + 1}. ${name}`;
         },
         footer: (props) => props.column.id,
         enableSorting: true,
@@ -77,11 +80,11 @@ const Personal = () => {
                   inactiveStrokeColor: "#ddcbc799",
                   itemStrokeWidth: 2,
                 }}
-                value={ratings.find((item) => item.id === itemId)?.value || 0}
+                value={ratings.find((item) => item.id === itemId)?.score || 0}
                 onChange={(value: number) =>
                   setRatings((prev) => {
                     const index = prev.findIndex((item) => item.id === itemId);
-                    prev[index].value = value;
+                    prev[index].score = value;
                     return [...prev];
                   })
                 }
@@ -97,9 +100,7 @@ const Personal = () => {
   );
 
   const table = useReactTable({
-    data: ratings.sort(
-      (a, b) => b.value - a.value || a.id.localeCompare(b.id) || 0
-    ),
+    data: ratings.sort((a, b) => b.score - a.score || 0),
     columns,
     state: {
       sorting,

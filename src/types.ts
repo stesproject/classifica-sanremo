@@ -1,9 +1,9 @@
 export interface NamesObj {
-  id: string;
-  info: string;
+  key: number;
+  value: string;
 }
 
 export interface RatingObj {
   id: string;
-  value: number;
+  score: number;
 }
