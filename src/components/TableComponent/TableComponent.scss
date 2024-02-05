@@ -20,7 +20,12 @@
 
     tbody {
       tr {
-        height: 58px;
+        height: 3.75rem;
+        transition: all 150ms;
+
+        &:hover {
+          background-color: #ffffff13;
+        }
       }
     }
   }
