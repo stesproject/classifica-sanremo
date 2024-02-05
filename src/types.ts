@@ -1,9 +1,9 @@
-export interface LeaderboardObj {
+export interface NamesObj {
   id: string;
   info: string;
 }
 
-export interface VoteObj {
+export interface RatingObj {
   id: string;
   value: number;
 }

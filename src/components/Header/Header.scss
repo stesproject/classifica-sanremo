@@ -1,0 +1,21 @@
+.header-menu {
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+  a {
+    min-width: 7rem;
+    transition: background-color 150ms;
+    text-align: center;
+    @apply flex items-center justify-center;
+
+    &:hover {
+      background-color: #ffffff25;
+    }
+
+    &.active {
+      font-weight: 600;
+      background-color: #ffffff25;
+    }
+  }
+}

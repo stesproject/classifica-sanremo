@@ -14,9 +14,9 @@ const TableComponent = (props: Props) => {
   const { pageSize } = table.getState().pagination;
 
   return (
-    <div className="table">
+    <div className="table-wrapper">
       <table>
-        <thead className="text-gray-500">
+        <thead>
           {table.getHeaderGroups().map((headerGroup) => (
             <tr key={headerGroup.id}>
               {headerGroup.headers.map((header) => {
@@ -26,7 +26,7 @@ const TableComponent = (props: Props) => {
                       <div
                         {...{
                           className: header.column.getCanSort()
-                            ? "cursor-pointer select-none"
+                            ? "cursor-pointer select-none flex justify-center"
                             : "",
                           onClick: header.column.getToggleSortingHandler(),
                         }}
@@ -60,7 +60,7 @@ const TableComponent = (props: Props) => {
             </tr>
           ))}
         </thead>
-        <tbody className="text-grey-dark">
+        <tbody>
           {table
             .getRowModel()
             .rows.slice(0, pageSize)

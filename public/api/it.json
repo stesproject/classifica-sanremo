@@ -1,4 +1,6 @@
 {
   "name": "Artista - Canzone",
-  "vote": "Punti"
+  "score": "Punti",
+  "global": "Globale",
+  "personal": "Personale"
 }

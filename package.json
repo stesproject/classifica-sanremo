@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@smastrom/react-rating": "^1.5.0",
     "@tanstack/react-table": "^8.11.8",
+    "clsx": "^2.1.0",
     "firebase": "^10.8.0",
     "i18next": "^23.8.2",
     "i18next-http-backend": "^2.4.3",

@@ -14,7 +14,7 @@ import { Rating, StickerStar } from "@smastrom/react-rating";
 import { NamesObj, RatingObj } from "../../types";
 import TableComponent from "../../components/TableComponent/TableComponent";
 
-const Root = () => {
+const Personal = () => {
   const [names, setNames] = useState<NamesObj[]>([]);
   const [ratings, setRatings] = useState<RatingObj[]>([]);
   const [sorting, setSorting] = useState<SortingState>([]);
@@ -114,4 +114,4 @@ const Root = () => {
   );
 };
 
-export default Root;
+export default Personal;

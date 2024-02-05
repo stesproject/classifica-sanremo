@@ -1,18 +1,19 @@
-.table {
-  @apply w-full bg-white p-4;
+.table-wrapper {
+  @apply w-full bg-transparent p-4;
+  @apply flex justify-center;
   border-radius: 15px;
   border-spacing: 0;
 
   table {
-    @apply w-full text-left;
+    @apply w-2/5;
 
     td {
-      border-color: #eee !important;
+      border-color: #eeeeee60 !important;
       border-bottom: solid 1px;
     }
 
     th {
-      border-bottom: solid 1px #eee;
+      border-bottom: solid 1px #eeeeee60;
       padding-bottom: 0.5rem;
       padding-right: 0.5rem;
     }
