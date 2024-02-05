@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-arrow-table</title>
+    <g id="UI_desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="richieste-nuova-02" transform="translate(-918, -227)">
+            <g id="icon-arrow-table" transform="translate(923, 232) scale(1, -1) translate(-923, -232)translate(918, 227)">
+                <polygon id="bg" fill="#D8D8D8" opacity="0" transform="translate(5, 5) scale(1, -1) rotate(-270) translate(-5, -5)" points="-3.29292149e-12 1.82009963e-12 10 1.82009963e-12 10 10 -3.29292149e-12 10"></polygon>
+                <path d="M6.2762709,0.718267821 L9.87682173,4.2448892 C10.2939559,4.66202336 10.2939559,5.33828102 9.87682173,5.75541517 L6.35020034,9.28203656 C6.08985082,9.54238608 5.66774083,9.54238608 5.4073913,9.28203656 C5.14704178,9.02168703 5.14704178,8.59957704 5.4073913,8.33922752 L8.07867234,5.6667013 L0.856339009,5.66681886 C0.488149176,5.66681886 0.189672342,5.36834202 0.189672342,5.00015219 C0.189672342,4.63196236 0.488149176,4.33348552 0.856339009,4.33348552 L8.06367234,4.3327013 L5.33346186,1.66107686 C5.09313921,1.42075422 5.12758691,1.04260018 5.33093683,0.781072713 L5.40594762,0.717659597 C5.66629715,0.45731007 6.01592137,0.457918294 6.2762709,0.718267821 Z" id="icon" fill="#445166" transform="translate(5.1897, 5) scale(1, -1) rotate(-270) translate(-5.1897, -5)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

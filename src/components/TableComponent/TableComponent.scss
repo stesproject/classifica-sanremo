@@ -1,0 +1,26 @@
+.table {
+  @apply w-full bg-white p-4;
+  border-radius: 15px;
+  border-spacing: 0;
+
+  table {
+    @apply w-full text-left;
+
+    td {
+      border-color: #eee !important;
+      border-bottom: solid 1px;
+    }
+
+    th {
+      border-bottom: solid 1px #eee;
+      padding-bottom: 0.5rem;
+      padding-right: 0.5rem;
+    }
+
+    tbody {
+      tr {
+        height: 58px;
+      }
+    }
+  }
+}
