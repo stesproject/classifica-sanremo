@@ -30,12 +30,21 @@ const Personal = () => {
   useEffect(() => {
     table.setPageSize(names.length);
 
-    setRatings(
-      names.map((item) => ({ id: `${item.id} - ${item.info}`, value: 0 }))
-    );
+    const ratings = localStorage.getItem("ratings");
+    if (ratings?.length) {
+      setRatings(JSON.parse(ratings));
+    } else {
+      setRatings(
+        names.map((item) => ({ id: `${item.id} - ${item.info}`, value: 0 }))
+      );
+    }
   }, [names]);
 
-  useEffect(() => {}, [ratings]);
+  useEffect(() => {
+    if (ratings.length === 0) return;
+
+    localStorage.setItem("ratings", JSON.stringify(ratings));
+  }, [ratings]);
 
   const columns = useMemo<ColumnDef<RatingObj>[]>(
     () => [
