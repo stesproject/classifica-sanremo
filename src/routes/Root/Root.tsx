@@ -157,14 +157,18 @@ const Root = () => {
 
   return (
     <>
-      <h1 className="text-center my-8 font-semibold">
-        🎶 Classifica Sanremo 2024 🎶
+      <h1 className="text-center my-4 sm:my-8 flex justify-center">
+        <span className="hidden sm:block">🎶 </span>
+        <span>{t(`${location.pathname}-title`)}</span>
+        <span className="hidden sm:block"> 🎶</span>
       </h1>
       <TableComponent table={table} />
       {location.pathname === "/personal" && (
-        <div className="fixed top-2/4 right-4 flex flex-col gap-3">
-          <button onClick={shareRatings}>{t("share")}</button>
-          <button>{t("send")}</button>
+        <div className="fixed bottom-4 left-0 sm:bottom-auto sm:left-auto px-4 sm:px-0 w-full sm:w-auto sm:top-2/4 sm:right-4 flex flex-row sm:flex-col gap-4 items-center justify-center">
+          <button className="sm:w-32 sm:h-32 w-full" onClick={shareRatings}>
+            {t("share")}
+          </button>
+          <button className="sm:w-32 sm:h-32 w-full">{t("send")}</button>
         </div>
       )}
     </>

@@ -4,5 +4,8 @@
   "global": "Globale",
   "personal": "Personale",
   "share": "Condividi",
-  "send": "Invia"
+  "send": "Invia",
+  "/-title": "Classifica Globale Sanremo 2024",
+  "/personal-title": "La tua Classifica Sanremo 2024",
+  "/shared-title": "Classifica Sanremo 2024"
 }

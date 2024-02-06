@@ -20,8 +20,12 @@
 
     tbody {
       tr {
-        height: 3.75rem;
+        height: 6.25rem;
         transition: all 150ms;
+
+        @media screen and (min-width: 480px) {
+          height: 3.75rem;
+        }
 
         &:hover {
           background-color: #ffffff13;

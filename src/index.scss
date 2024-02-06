@@ -34,6 +34,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-size: 16px;
   color: white;
   background-image: linear-gradient(
     to right bottom,
@@ -50,11 +51,20 @@ body {
     #cb3c9c,
     #d30071
   );
+
+  @media screen and (min-width: 480px) {
+    font-size: 18px;
+  }
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 2em;
   line-height: 1.1;
+  font-weight: 600;
+
+  @media screen and (min-width: 480px) {
+    font-size: 3.2em;
+  }
 }
 
 button {
@@ -70,7 +80,7 @@ button {
   color: #213547;
 }
 button:hover {
-  background-color: #FFE3DC;
+  background-color: #ffe3dc;
 }
 button:focus,
 button:focus-visible {
